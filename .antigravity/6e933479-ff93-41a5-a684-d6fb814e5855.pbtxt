@@ -1,0 +1,1296 @@
+steps {
+  type: CORTEX_STEP_TYPE_USER_INPUT
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210606
+      nanos: 151003000
+    }
+    source: CORTEX_STEP_SOURCE_SYSTEM
+    completed_at {
+      seconds: 1789210606
+      nanos: 151003000
+    }
+  }
+  user_input {
+    user_response: "Here is the full initial file tree for the application:\n/.build-outputs/app-debug.apk\n/.env.example\n/.gitignore\n/app/.gitignore\n/app/build.gradle.kts\n/app/proguard-rules.pro\n/app/src/androidTest/java/com/example/ExampleInstrumentedTest.kt\n/app/src/main/AndroidManifest.xml\n/app/src/main/java/com/example/MainActivity.kt\n/app/src/main/java/com/example/ScreenRecorderApp.kt\n/app/src/main/java/com/example/data/local/AppDatabase.kt\n/app/src/main/java/com/example/data/local/RecordingDao.kt\n/app/src/main/java/com/example/data/local/RecordingEntity.kt\n/app/src/main/java/com/example/data/model/RecordingItem.kt\n/app/src/main/java/com/example/data/repository/RecordingRepository.kt\n/app/src/main/java/com/example/service/FloatingOverlayController.kt\n/app/src/main/java/com/example/service/RecordingConfig.kt\n/app/src/main/java/com/example/service/RecordingState.kt\n/app/src/main/java/com/example/service/ScreenRecordService.kt\n/app/src/main/java/com/example/ui/components/Dialogs.kt\n/app/src/main/java/com/example/ui/components/GlassContainer.kt\n/app/src/main/java/com/example/ui/components/PermissionsCard.kt\n/app/src/main/java/com/example/ui/components/RecordingConsole.kt\n/app/src/main/java/com/example/ui/components/SettingsScreen.kt\n/app/src/main/java/com/example/ui/components/VideoCard.kt\n/app/src/main/java/com/example/ui/components/VideoPlayerDialog.kt\n/app/src/main/java/com/example/ui/theme/Color.kt\n/app/src/main/java/com/example/ui/theme/Theme.kt\n/app/src/main/java/com/example/ui/theme/Type.kt\n/app/src/main/java/com/example/ui/viewmodel/RecorderViewModel.kt\n/app/src/main/res/drawable/ic_launcher_background.xml\n/app/src/main/res/drawable/ic_launcher_foreground.xml\n/app/src/main/res/drawable/ic_screen_recorder_logo.jpg\n/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml\n/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml\n/app/src/main/res/mipmap-hdpi/ic_launcher.webp\n/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp\n/app/src/main/res/mipmap-mdpi/ic_launcher.webp\n/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp\n/app/src/main/res/mipmap-xhdpi/ic_launcher.webp\n/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp\n/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp\n/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp\n/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp\n/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp\n/app/src/main/res/values/colors.xml\n/app/src/main/res/values/strings.xml\n/app/src/main/res/values/themes.xml\n/app/src/main/res/xml/backup_rules.xml\n/app/src/main/res/xml/data_extraction_rules.xml\n/app/src/main/res/xml/file_paths.xml\n/app/src/test/java/com/example/ExampleRobolectricTest.kt\n/app/src/test/java/com/example/ExampleUnitTest.kt\n/app/src/test/java/com/example/GreetingScreenshotTest.kt\n/app/src/test/screenshots/greeting.png\n/build.gradle.kts\n/debug.keystore.base64\n/gradle.properties\n/gradle/libs.versions.toml\n/gradle/wrapper/gradle-wrapper.properties\n/metadata.json\n/public/assets/aistudio/.gitignore\n/settings.gradle.kts"
+    items {
+      text: "Here is the full initial file tree for the application:\n/.build-outputs/app-debug.apk\n/.env.example\n/.gitignore\n/app/.gitignore\n/app/build.gradle.kts\n/app/proguard-rules.pro\n/app/src/androidTest/java/com/example/ExampleInstrumentedTest.kt\n/app/src/main/AndroidManifest.xml\n/app/src/main/java/com/example/MainActivity.kt\n/app/src/main/java/com/example/ScreenRecorderApp.kt\n/app/src/main/java/com/example/data/local/AppDatabase.kt\n/app/src/main/java/com/example/data/local/RecordingDao.kt\n/app/src/main/java/com/example/data/local/RecordingEntity.kt\n/app/src/main/java/com/example/data/model/RecordingItem.kt\n/app/src/main/java/com/example/data/repository/RecordingRepository.kt\n/app/src/main/java/com/example/service/FloatingOverlayController.kt\n/app/src/main/java/com/example/service/RecordingConfig.kt\n/app/src/main/java/com/example/service/RecordingState.kt\n/app/src/main/java/com/example/service/ScreenRecordService.kt\n/app/src/main/java/com/example/ui/components/Dialogs.kt\n/app/src/main/java/com/example/ui/components/GlassContainer.kt\n/app/src/main/java/com/example/ui/components/PermissionsCard.kt\n/app/src/main/java/com/example/ui/components/RecordingConsole.kt\n/app/src/main/java/com/example/ui/components/SettingsScreen.kt\n/app/src/main/java/com/example/ui/components/VideoCard.kt\n/app/src/main/java/com/example/ui/components/VideoPlayerDialog.kt\n/app/src/main/java/com/example/ui/theme/Color.kt\n/app/src/main/java/com/example/ui/theme/Theme.kt\n/app/src/main/java/com/example/ui/theme/Type.kt\n/app/src/main/java/com/example/ui/viewmodel/RecorderViewModel.kt\n/app/src/main/res/drawable/ic_launcher_background.xml\n/app/src/main/res/drawable/ic_launcher_foreground.xml\n/app/src/main/res/drawable/ic_screen_recorder_logo.jpg\n/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml\n/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml\n/app/src/main/res/mipmap-hdpi/ic_launcher.webp\n/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp\n/app/src/main/res/mipmap-mdpi/ic_launcher.webp\n/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp\n/app/src/main/res/mipmap-xhdpi/ic_launcher.webp\n/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp\n/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp\n/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp\n/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp\n/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp\n/app/src/main/res/values/colors.xml\n/app/src/main/res/values/strings.xml\n/app/src/main/res/values/themes.xml\n/app/src/main/res/xml/backup_rules.xml\n/app/src/main/res/xml/data_extraction_rules.xml\n/app/src/main/res/xml/file_paths.xml\n/app/src/test/java/com/example/ExampleRobolectricTest.kt\n/app/src/test/java/com/example/ExampleUnitTest.kt\n/app/src/test/java/com/example/GreetingScreenshotTest.kt\n/app/src/test/screenshots/greeting.png\n/build.gradle.kts\n/debug.keystore.base64\n/gradle.properties\n/gradle/libs.versions.toml\n/gradle/wrapper/gradle-wrapper.properties\n/metadata.json\n/public/assets/aistudio/.gitignore\n/settings.gradle.kts"
+    }
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_USER_INPUT
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210608
+      nanos: 462192312
+    }
+    source: CORTEX_STEP_SOURCE_USER_EXPLICIT
+  }
+  user_input {
+    user_response: "settings screen is not showing also show the white dot on the tap to start button"
+    items {
+      text: "settings screen is not showing also show the white dot on the tap to start button"
+    }
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_PLANNER_RESPONSE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210608
+      nanos: 462441672
+    }
+    source: CORTEX_STEP_SOURCE_MODEL
+    viewable_at {
+      seconds: 1789210608
+      nanos: 540523449
+    }
+    finished_generating_at {
+      seconds: 1789210608
+      nanos: 540522959
+    }
+    completed_at {
+      seconds: 1789210608
+      nanos: 540522959
+    }
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 2
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+    started_at {
+      seconds: 1789210608
+      nanos: 540522959
+    }
+  }
+  planner_response {
+    stop_reason: STOP_REASON_CLIENT_STREAM_ERROR
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_ERROR_MESSAGE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210612
+      nanos: 541365184
+    }
+    source: CORTEX_STEP_SOURCE_SYSTEM
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 3
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+  }
+  error_message {
+    error {
+      user_error_message: "Encountered retryable error from model provider: Agent execution terminated due to error."
+      short_error: "generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_tokens_per_model_per_user, limit: 25000000, model: gemini-3.8-flash: generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_tokens_per_model_per_user, limit: 25000000, model: gemini-3.8-flash"
+      error_id: "6e933479-ff93-41a5-a684-d6fb814e5855-3"
+      error_code: 8
+    }
+    should_show_model: true
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_PLANNER_RESPONSE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210612
+      nanos: 541518435
+    }
+    source: CORTEX_STEP_SOURCE_MODEL
+    viewable_at {
+      seconds: 1789210612
+      nanos: 579460688
+    }
+    finished_generating_at {
+      seconds: 1789210612
+      nanos: 579460418
+    }
+    completed_at {
+      seconds: 1789210612
+      nanos: 579460418
+    }
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 4
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+    started_at {
+      seconds: 1789210612
+      nanos: 579460418
+    }
+  }
+  planner_response {
+    stop_reason: STOP_REASON_CLIENT_STREAM_ERROR
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_ERROR_MESSAGE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210617
+      nanos: 540903657
+    }
+    source: CORTEX_STEP_SOURCE_SYSTEM
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 5
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+  }
+  error_message {
+    error {
+      user_error_message: "Encountered retryable error from model provider: Agent execution terminated due to error."
+      short_error: "generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_tokens_per_model_per_user, limit: 25000000, model: gemini-3.8-flash: generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_tokens_per_model_per_user, limit: 25000000, model: gemini-3.8-flash"
+      error_id: "6e933479-ff93-41a5-a684-d6fb814e5855-5"
+      error_code: 8
+    }
+    should_show_model: true
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_PLANNER_RESPONSE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210617
+      nanos: 541120247
+    }
+    source: CORTEX_STEP_SOURCE_MODEL
+    viewable_at {
+      seconds: 1789210617
+      nanos: 577618305
+    }
+    finished_generating_at {
+      seconds: 1789210617
+      nanos: 577617875
+    }
+    completed_at {
+      seconds: 1789210617
+      nanos: 577617875
+    }
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 6
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+    started_at {
+      seconds: 1789210617
+      nanos: 577617875
+    }
+  }
+  planner_response {
+    stop_reason: STOP_REASON_CLIENT_STREAM_ERROR
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_ERROR_MESSAGE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210632
+      nanos: 712388372
+    }
+    source: CORTEX_STEP_SOURCE_SYSTEM
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 7
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+  }
+  error_message {
+    error {
+      user_error_message: "Encountered retryable error from model provider: Agent execution terminated due to error."
+      short_error: "generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_tokens_per_model_per_user, limit: 25000000, model: gemini-3.8-flash: generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_tokens_per_model_per_user, limit: 25000000, model: gemini-3.8-flash"
+      error_id: "6e933479-ff93-41a5-a684-d6fb814e5855-7"
+      error_code: 8
+    }
+    should_show_model: true
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_PLANNER_RESPONSE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210632
+      nanos: 712669893
+    }
+    source: CORTEX_STEP_SOURCE_MODEL
+    viewable_at {
+      seconds: 1789210632
+      nanos: 752579863
+    }
+    finished_generating_at {
+      seconds: 1789210632
+      nanos: 752579383
+    }
+    completed_at {
+      seconds: 1789210632
+      nanos: 752579383
+    }
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 8
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+    started_at {
+      seconds: 1789210632
+      nanos: 752579383
+    }
+  }
+  planner_response {
+    stop_reason: STOP_REASON_CLIENT_STREAM_ERROR
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_ERROR_MESSAGE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210659
+      nanos: 660722540
+    }
+    source: CORTEX_STEP_SOURCE_SYSTEM
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 9
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+  }
+  error_message {
+    error {
+      user_error_message: "Encountered retryable error from model provider: Agent execution terminated due to error."
+      short_error: "generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_tokens_per_model_per_user, limit: 25000000, model: gemini-3.8-flash: generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_tokens_per_model_per_user, limit: 25000000, model: gemini-3.8-flash"
+      error_id: "6e933479-ff93-41a5-a684-d6fb814e5855-9"
+      error_code: 8
+    }
+    should_show_model: true
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_PLANNER_RESPONSE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210659
+      nanos: 660993990
+    }
+    source: CORTEX_STEP_SOURCE_MODEL
+    viewable_at {
+      seconds: 1789210661
+      nanos: 15474745
+    }
+    finished_generating_at {
+      seconds: 1789210661
+      nanos: 50568265
+    }
+    completed_at {
+      seconds: 1789210661
+      nanos: 50568265
+    }
+    model_usage {
+      input_tokens: 24207
+      output_tokens: 281
+      message_id: "IzClapbUKvvjz7IPxLHHoA0"
+      thinking_output_tokens: 216
+      response_output_tokens: 65
+      response_id: "IzClapbUKvvjz7IPxLHHoA0"
+      prompt_tokens_details {
+        modality: TEXT
+        token_count: 24207
+      }
+    }
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 10
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+    started_at {
+      seconds: 1789210661
+      nanos: 50568265
+    }
+  }
+  planner_response {
+    stop_reason: STOP_REASON_STOP_PATTERN
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_VIEW_FILE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210661
+      nanos: 15503925
+    }
+    source: CORTEX_STEP_SOURCE_MODEL
+    arguments_order: "AbsolutePath"
+    arguments_order: "EndLine"
+    arguments_order: "StartLine"
+    arguments_order: "toolAction"
+    arguments_order: "toolSummary"
+    viewable_at {
+      seconds: 1789210661
+      nanos: 50470145
+    }
+    finished_generating_at {
+      seconds: 1789210661
+      nanos: 50469595
+    }
+    completed_at {
+      seconds: 1789210662
+      nanos: 206553794
+    }
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 11
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    last_completed_chunk_at {
+      seconds: 1789210661
+      nanos: 50461625
+    }
+    tool_call_output_tokens: 42
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+    tool_summary: "Viewing ScreenRecorderApp.kt"
+    tool_action: "Viewing file"
+    started_at {
+      seconds: 1789210661
+      nanos: 50668165
+    }
+  }
+  view_file {
+    absolute_path_uri: "file:///app/src/main/java/com/example/ScreenRecorderApp.kt"
+    end_line: 16
+    num_lines: 17
+    num_bytes: 425
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_PLANNER_RESPONSE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210662
+      nanos: 208776185
+    }
+    source: CORTEX_STEP_SOURCE_MODEL
+    viewable_at {
+      seconds: 1789210662
+      nanos: 247587738
+    }
+    finished_generating_at {
+      seconds: 1789210662
+      nanos: 247587308
+    }
+    completed_at {
+      seconds: 1789210662
+      nanos: 247587308
+    }
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 12
+      metadata_index: 1
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+    started_at {
+      seconds: 1789210662
+      nanos: 247587308
+    }
+  }
+  planner_response {
+    stop_reason: STOP_REASON_CLIENT_STREAM_ERROR
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_ERROR_MESSAGE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210666
+      nanos: 248358197
+    }
+    source: CORTEX_STEP_SOURCE_SYSTEM
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 13
+      metadata_index: 1
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+  }
+  error_message {
+    error {
+      user_error_message: "Encountered retryable error from model provider: Agent execution terminated due to error."
+      short_error: "generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 2000000, model: gemini-3.8-flash\nPlease retry in 17.758547785s.: generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 2000000, model: gemini-3.8-flash\nPlease retry in 17.758547785s."
+      error_id: "6e933479-ff93-41a5-a684-d6fb814e5855-13"
+      error_code: 8
+    }
+    should_show_model: true
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_PLANNER_RESPONSE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210666
+      nanos: 248686058
+    }
+    source: CORTEX_STEP_SOURCE_MODEL
+    viewable_at {
+      seconds: 1789210666
+      nanos: 297323783
+    }
+    finished_generating_at {
+      seconds: 1789210666
+      nanos: 297323333
+    }
+    completed_at {
+      seconds: 1789210666
+      nanos: 297323333
+    }
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 14
+      metadata_index: 1
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+    started_at {
+      seconds: 1789210666
+      nanos: 297323333
+    }
+  }
+  planner_response {
+    stop_reason: STOP_REASON_CLIENT_STREAM_ERROR
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_ERROR_MESSAGE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210672
+      nanos: 377688524
+    }
+    source: CORTEX_STEP_SOURCE_SYSTEM
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 15
+      metadata_index: 1
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+  }
+  error_message {
+    error {
+      user_error_message: "Encountered retryable error from model provider: Agent execution terminated due to error."
+      short_error: "generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 2000000, model: gemini-3.8-flash\nPlease retry in 13.710265106s.: generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 2000000, model: gemini-3.8-flash\nPlease retry in 13.710265106s."
+      error_id: "6e933479-ff93-41a5-a684-d6fb814e5855-15"
+      error_code: 8
+    }
+    should_show_model: true
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_PLANNER_RESPONSE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210672
+      nanos: 378019234
+    }
+    source: CORTEX_STEP_SOURCE_MODEL
+    viewable_at {
+      seconds: 1789210672
+      nanos: 423942179
+    }
+    finished_generating_at {
+      seconds: 1789210672
+      nanos: 423941819
+    }
+    completed_at {
+      seconds: 1789210672
+      nanos: 423941819
+    }
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 16
+      metadata_index: 1
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+    started_at {
+      seconds: 1789210672
+      nanos: 423941819
+    }
+  }
+  planner_response {
+    stop_reason: STOP_REASON_CLIENT_STREAM_ERROR
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_ERROR_MESSAGE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210683
+      nanos: 388148945
+    }
+    source: CORTEX_STEP_SOURCE_SYSTEM
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 17
+      metadata_index: 1
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+  }
+  error_message {
+    error {
+      user_error_message: "Encountered retryable error from model provider: Agent execution terminated due to error."
+      short_error: "generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 2000000, model: gemini-3.8-flash\nPlease retry in 7.583180969s.: generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 2000000, model: gemini-3.8-flash\nPlease retry in 7.583180969s."
+      error_id: "6e933479-ff93-41a5-a684-d6fb814e5855-17"
+      error_code: 8
+    }
+    should_show_model: true
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_PLANNER_RESPONSE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210683
+      nanos: 388568436
+    }
+    source: CORTEX_STEP_SOURCE_MODEL
+    viewable_at {
+      seconds: 1789210683
+      nanos: 437863061
+    }
+    finished_generating_at {
+      seconds: 1789210683
+      nanos: 437862421
+    }
+    completed_at {
+      seconds: 1789210683
+      nanos: 437862421
+    }
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 18
+      metadata_index: 1
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+    started_at {
+      seconds: 1789210683
+      nanos: 437862421
+    }
+  }
+  planner_response {
+    stop_reason: STOP_REASON_CLIENT_STREAM_ERROR
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_ERROR_MESSAGE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210706
+      nanos: 162718149
+    }
+    source: CORTEX_STEP_SOURCE_SYSTEM
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 19
+      metadata_index: 1
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+  }
+  error_message {
+    error {
+      user_error_message: "Encountered retryable error from model provider: Agent execution terminated due to error."
+      short_error: "generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 2000000, model: gemini-3.8-flash\nPlease retry in 56.570952867s.: generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 2000000, model: gemini-3.8-flash\nPlease retry in 56.570952867s."
+      error_id: "6e933479-ff93-41a5-a684-d6fb814e5855-19"
+      error_code: 8
+    }
+    should_show_model: true
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_PLANNER_RESPONSE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210706
+      nanos: 163167550
+    }
+    source: CORTEX_STEP_SOURCE_MODEL
+    viewable_at {
+      seconds: 1789210706
+      nanos: 199290858
+    }
+    finished_generating_at {
+      seconds: 1789210706
+      nanos: 199290538
+    }
+    completed_at {
+      seconds: 1789210706
+      nanos: 199290538
+    }
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 20
+      metadata_index: 1
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+    started_at {
+      seconds: 1789210706
+      nanos: 199290538
+    }
+  }
+  planner_response {
+    stop_reason: STOP_REASON_CLIENT_STREAM_ERROR
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_ERROR_MESSAGE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210759
+      nanos: 120801284
+    }
+    source: CORTEX_STEP_SOURCE_SYSTEM
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 21
+      metadata_index: 1
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+  }
+  error_message {
+    error {
+      user_error_message: "Encountered retryable error from model provider: Agent execution terminated due to error."
+      short_error: "generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 2000000, model: gemini-3.8-flash\nPlease retry in 33.808347135s.: generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 2000000, model: gemini-3.8-flash\nPlease retry in 33.808347135s."
+      error_id: "6e933479-ff93-41a5-a684-d6fb814e5855-21"
+      error_code: 8
+    }
+    should_show_model: true
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_PLANNER_RESPONSE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210759
+      nanos: 121230834
+    }
+    source: CORTEX_STEP_SOURCE_MODEL
+    viewable_at {
+      seconds: 1789210759
+      nanos: 163348226
+    }
+    finished_generating_at {
+      seconds: 1789210759
+      nanos: 163347786
+    }
+    completed_at {
+      seconds: 1789210759
+      nanos: 163347786
+    }
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 22
+      metadata_index: 1
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+    started_at {
+      seconds: 1789210759
+      nanos: 163347786
+    }
+  }
+  planner_response {
+    stop_reason: STOP_REASON_CLIENT_STREAM_ERROR
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_ERROR_MESSAGE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210853
+      nanos: 621605013
+    }
+    source: CORTEX_STEP_SOURCE_SYSTEM
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 23
+      metadata_index: 1
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+  }
+  error_message {
+    error {
+      user_error_message: "Encountered retryable error from model provider: Agent execution terminated due to error."
+      short_error: "generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 2000000, model: gemini-3.8-flash\nPlease retry in 40.844489586s.: generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 2000000, model: gemini-3.8-flash\nPlease retry in 40.844489586s."
+      error_id: "6e933479-ff93-41a5-a684-d6fb814e5855-23"
+      error_code: 8
+    }
+    should_show_model: true
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_PLANNER_RESPONSE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789210853
+      nanos: 622067133
+    }
+    source: CORTEX_STEP_SOURCE_MODEL
+    viewable_at {
+      seconds: 1789210853
+      nanos: 663707622
+    }
+    finished_generating_at {
+      seconds: 1789210853
+      nanos: 663707252
+    }
+    completed_at {
+      seconds: 1789210853
+      nanos: 663707252
+    }
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 24
+      metadata_index: 1
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+    started_at {
+      seconds: 1789210853
+      nanos: 663707252
+    }
+  }
+  planner_response {
+    stop_reason: STOP_REASON_CLIENT_STREAM_ERROR
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_ERROR_MESSAGE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789211018
+      nanos: 492781711
+    }
+    source: CORTEX_STEP_SOURCE_SYSTEM
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 25
+      metadata_index: 1
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+  }
+  error_message {
+    error {
+      user_error_message: "Encountered retryable error from model provider: Agent execution terminated due to error."
+      short_error: "generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 2000000, model: gemini-3.8-flash\nPlease retry in 6.342477094s.: generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 2000000, model: gemini-3.8-flash\nPlease retry in 6.342477094s."
+      error_id: "6e933479-ff93-41a5-a684-d6fb814e5855-25"
+      error_code: 8
+    }
+    should_show_model: true
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_PLANNER_RESPONSE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789211018
+      nanos: 493325912
+    }
+    source: CORTEX_STEP_SOURCE_MODEL
+    viewable_at {
+      seconds: 1789211018
+      nanos: 537741283
+    }
+    finished_generating_at {
+      seconds: 1789211018
+      nanos: 537740823
+    }
+    completed_at {
+      seconds: 1789211018
+      nanos: 537740823
+    }
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 26
+      metadata_index: 1
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+    started_at {
+      seconds: 1789211018
+      nanos: 537740823
+    }
+  }
+  planner_response {
+    stop_reason: STOP_REASON_CLIENT_STREAM_ERROR
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_USER_INPUT
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789211236
+      nanos: 892783462
+    }
+    source: CORTEX_STEP_SOURCE_USER_EXPLICIT
+  }
+  user_input {
+    user_response: "There was an unexpected error. Finish what you were doing."
+    items {
+      text: "There was an unexpected error. Finish what you were doing."
+    }
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_PLANNER_RESPONSE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789211236
+      nanos: 893537592
+    }
+    source: CORTEX_STEP_SOURCE_MODEL
+    viewable_at {
+      seconds: 1789211237
+      nanos: 153455826
+    }
+    finished_generating_at {
+      seconds: 1789211237
+      nanos: 153455426
+    }
+    completed_at {
+      seconds: 1789211237
+      nanos: 153455426
+    }
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 28
+      metadata_index: 1
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+    internal_metadata {
+      status_transitions {
+        updated_status: CORTEX_STEP_STATUS_DONE
+        timestamp {
+          seconds: 1789211237
+          nanos: 153465206
+        }
+      }
+    }
+    started_at {
+      seconds: 1789211237
+      nanos: 153455426
+    }
+  }
+  planner_response {
+    stop_reason: STOP_REASON_CLIENT_STREAM_ERROR
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_ERROR_MESSAGE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789211241
+      nanos: 156159650
+    }
+    source: CORTEX_STEP_SOURCE_SYSTEM
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 29
+      metadata_index: 1
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+    internal_metadata {
+      status_transitions {
+        updated_status: CORTEX_STEP_STATUS_DONE
+        timestamp {
+          seconds: 1789211241
+          nanos: 156170010
+        }
+      }
+    }
+  }
+  error_message {
+    error {
+      user_error_message: "Encountered retryable error from model provider: Agent execution terminated due to error."
+      short_error: "generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_tokens_per_model_per_user, limit: 25000000, model: gemini-3.8-flash: generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_tokens_per_model_per_user, limit: 25000000, model: gemini-3.8-flash"
+      full_error: "generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. : generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n(1) tags: map[stream_receive_count:0 streaming_duration:0s]\nWraps: (2) attached stack trace\n  -- stack trace:\n  | google3/third_party/gemini_coder/framework/generator/generator.(*streamResponseHandler).processStream\n  | \tthird_party/gemini_coder/framework/generator/stream_handler.go:396\n  | google3/third_party/gemini_coder/framework/generator/generator.(*PlannerGenerator).attemptGenerate\n  | \tthird_party/gemini_coder/framework/generator/planner_generator.go:484\n  | google3/third_party/gemini_coder/framework/generator/generator.(*PlannerGenerator).generateWithAPIRetry\n  | \tthird_party/gemini_coder/framework/generator/planner_generator.go:313\n  | google3/third_party/gemini_coder/framework/generator/generator.(*PlannerGenerator).generateWithModelOutputRetry\n  | \tthird_party/gemini_coder/framework/generator/planner_generator.go:150\n  | google3/third_party/gemini_coder/framework/generator/generator.(*PlannerGenerator).Generate\n  | \tthird_party/gemini_coder/framework/generator/planner_generator.go:88\n  | google3/third_party/gemini_coder/framework/executor/executor.(*Executor).runInvocation\n  | \tthird_party/gemini_coder/framework/executor/executor.go:505\n  | google3/third_party/gemini_coder/framework/executor/executor.(*Executor).runExecution\n  | \tthird_party/gemini_coder/framework/executor/executor.go:403\n  | google3/third_party/gemini_coder/framework/executor/executor.(*Executor).Execute\n  | \tthird_party/gemini_coder/framework/executor/executor.go:372\n  | google3/devtools/jetski/boq/agent_service/agent.(*Service).executeWithBackgroundLoop\n  | \tdevtools/jetski/boq/agent_service/agent.go:1033\n  | google3/devtools/jetski/boq/agent_service/agent.(*Service).executeAgent\n  | \tdevtools/jetski/boq/agent_service/agent.go:863\n  | google3/devtools/jetski/boq/agent_service/agent.(*Service).StreamAgentStateUpdatesBidi.func1\n  | \tdevtools/jetski/boq/agent_service/agent.go:312\n  | google3/third_party/golang/go_sync/errgroup/errgroup.(*Group).Go.func1\n  | \tthird_party/golang/go_sync/errgroup/errgroup.go:93\n  | runtime.goexit\n  | \tthird_party/go/gc/src/runtime/asm_arm64.s:1039\nWraps: (3) generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n  | * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_tokens_per_model_per_user, limit: 25000000, model: gemini-3.8-flash\nWraps: (4) generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n  | * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_tokens_per_model_per_user, limit: 25000000, model: gemini-3.8-flash\nError types: (1) *errorreport.withTags (2) *withstack.withStack (3) *errutil.withPrefix (4) *status.statusError"
+      error_id: "6e933479-ff93-41a5-a684-d6fb814e5855-29"
+      error_code: 8
+      model_error_message: "The model API is currently overloaded and may experience intermittent errors."
+    }
+    should_show_model: true
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_PLANNER_RESPONSE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789211241
+      nanos: 156570090
+    }
+    source: CORTEX_STEP_SOURCE_MODEL
+    viewable_at {
+      seconds: 1789211241
+      nanos: 267835342
+    }
+    finished_generating_at {
+      seconds: 1789211241
+      nanos: 267834982
+    }
+    completed_at {
+      seconds: 1789211241
+      nanos: 267834982
+    }
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 30
+      metadata_index: 1
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+    internal_metadata {
+      status_transitions {
+        updated_status: CORTEX_STEP_STATUS_DONE
+        timestamp {
+          seconds: 1789211241
+          nanos: 267844212
+        }
+      }
+    }
+    started_at {
+      seconds: 1789211241
+      nanos: 267834982
+    }
+  }
+  planner_response {
+    stop_reason: STOP_REASON_CLIENT_STREAM_ERROR
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_ERROR_MESSAGE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789211246
+      nanos: 317584879
+    }
+    source: CORTEX_STEP_SOURCE_SYSTEM
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 31
+      metadata_index: 1
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+    internal_metadata {
+      status_transitions {
+        updated_status: CORTEX_STEP_STATUS_DONE
+        timestamp {
+          seconds: 1789211246
+          nanos: 317594229
+        }
+      }
+    }
+  }
+  error_message {
+    error {
+      user_error_message: "Encountered retryable error from model provider: Agent execution terminated due to error."
+      short_error: "generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_tokens_per_model_per_user, limit: 25000000, model: gemini-3.8-flash: generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_tokens_per_model_per_user, limit: 25000000, model: gemini-3.8-flash"
+      full_error: "generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. : generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n(1) tags: map[stream_receive_count:0 streaming_duration:0s]\nWraps: (2) attached stack trace\n  -- stack trace:\n  | google3/third_party/gemini_coder/framework/generator/generator.(*streamResponseHandler).processStream\n  | \tthird_party/gemini_coder/framework/generator/stream_handler.go:396\n  | google3/third_party/gemini_coder/framework/generator/generator.(*PlannerGenerator).attemptGenerate\n  | \tthird_party/gemini_coder/framework/generator/planner_generator.go:484\n  | google3/third_party/gemini_coder/framework/generator/generator.(*PlannerGenerator).generateWithAPIRetry\n  | \tthird_party/gemini_coder/framework/generator/planner_generator.go:313\n  | google3/third_party/gemini_coder/framework/generator/generator.(*PlannerGenerator).generateWithModelOutputRetry\n  | \tthird_party/gemini_coder/framework/generator/planner_generator.go:150\n  | google3/third_party/gemini_coder/framework/generator/generator.(*PlannerGenerator).Generate\n  | \tthird_party/gemini_coder/framework/generator/planner_generator.go:88\n  | google3/third_party/gemini_coder/framework/executor/executor.(*Executor).runInvocation\n  | \tthird_party/gemini_coder/framework/executor/executor.go:505\n  | google3/third_party/gemini_coder/framework/executor/executor.(*Executor).runExecution\n  | \tthird_party/gemini_coder/framework/executor/executor.go:403\n  | google3/third_party/gemini_coder/framework/executor/executor.(*Executor).Execute\n  | \tthird_party/gemini_coder/framework/executor/executor.go:372\n  | google3/devtools/jetski/boq/agent_service/agent.(*Service).executeWithBackgroundLoop\n  | \tdevtools/jetski/boq/agent_service/agent.go:1033\n  | google3/devtools/jetski/boq/agent_service/agent.(*Service).executeAgent\n  | \tdevtools/jetski/boq/agent_service/agent.go:863\n  | google3/devtools/jetski/boq/agent_service/agent.(*Service).StreamAgentStateUpdatesBidi.func1\n  | \tdevtools/jetski/boq/agent_service/agent.go:312\n  | google3/third_party/golang/go_sync/errgroup/errgroup.(*Group).Go.func1\n  | \tthird_party/golang/go_sync/errgroup/errgroup.go:93\n  | runtime.goexit\n  | \tthird_party/go/gc/src/runtime/asm_arm64.s:1039\nWraps: (3) generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n  | * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_tokens_per_model_per_user, limit: 25000000, model: gemini-3.8-flash\nWraps: (4) generic::resource_exhausted: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n  | * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_tokens_per_model_per_user, limit: 25000000, model: gemini-3.8-flash\nError types: (1) *errorreport.withTags (2) *withstack.withStack (3) *errutil.withPrefix (4) *status.statusError"
+      error_id: "6e933479-ff93-41a5-a684-d6fb814e5855-31"
+      error_code: 8
+      model_error_message: "The model API is currently overloaded and may experience intermittent errors."
+    }
+    should_show_model: true
+  }
+}
+steps {
+  type: CORTEX_STEP_TYPE_PLANNER_RESPONSE
+  status: CORTEX_STEP_STATUS_DONE
+  metadata {
+    created_at {
+      seconds: 1789211246
+      nanos: 317976249
+    }
+    source: CORTEX_STEP_SOURCE_MODEL
+    viewable_at {
+      seconds: 1789211246
+      nanos: 458704680
+    }
+    finished_generating_at {
+      seconds: 1789211246
+      nanos: 458704190
+    }
+    completed_at {
+      seconds: 1789211246
+      nanos: 458704190
+    }
+    generator_model: MODEL_GOOGLE_GEMINI_INTERNAL_BYOM
+    execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    source_trajectory_step_info {
+      trajectory_id: "6e933479-ff93-41a5-a684-d6fb814e5855"
+      step_index: 32
+      metadata_index: 1
+      cascade_id: "a0688a29-7467-4a11-8362-623662dd6425"
+    }
+    step_generation_version: 1
+    model_info {
+      model_name: "gemini-3.8-flash"
+      thinking_budget: 4000
+    }
+    internal_metadata {
+      status_transitions {
+        updated_status: CORTEX_STEP_STATUS_DONE
+        timestamp {
+          seconds: 1789211246
+          nanos: 458717260
+        }
+      }
+    }
+    started_at {
+      seconds: 1789211246
+      nanos: 458704190
+    }
+  }
+  planner_response {
+    stop_reason: STOP_REASON_CLIENT_STREAM_ERROR
+  }
+}
+generator_metadata {
+  step_indices: 2
+  step_indices: 3
+  step_indices: 4
+  step_indices: 5
+  step_indices: 6
+  step_indices: 7
+  step_indices: 8
+  step_indices: 9
+  step_indices: 10
+  step_indices: 11
+  planner_config {
+  }
+  execution_id: "a0688a29-7467-4a11-8362-623662dd6425"
+}
